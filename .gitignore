@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -209,3 +210,53 @@ __marimo__/
 
 #node modules
 node_modules/
+=======
+# ---- Secrets ----
+.env
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# ---- Virtualenv ----
+venv/
+.venv/
+
+# ---- macOS ----
+.DS_Store
+
+# ---- Data (often large / sensitive) ----
+data/raw/
+data/parsed/
+data/eval/
+data/baseline/
+data/models/
+data/reports/
+
+# Keep folder structure but not contents (optional)
+!data/.keep
+!data/baseline/.keep
+!data/eval/.keep
+!data/models/.keep
+!data/reports/.keep
+
+# ---- TLS certs (do not commit private keys) ----
+server/certs/*.key
+server/certs/*.pem
+server/certs/*.crt
+
+# ---- Captures ----
+*.pcap
+*.pcapng
+
+# ---- Logs ----
+*.log
+
+>>>>>>> Stashed changes

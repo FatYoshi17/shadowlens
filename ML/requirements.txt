@@ -1,0 +1,8 @@
+numpy
+pandas
+rrcf
+python-dotenv
+google-genai
+rich
+requests
+
